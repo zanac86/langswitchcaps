@@ -1,4 +1,5 @@
 #define _WIN32_WINNT 0x0501
+//#define WIN32_LEAN_AND_MEAN
 
 #include <windows.h>
 #include <tchar.h>
@@ -59,7 +60,8 @@ void failed(const TCHAR* msg)
     ExitProcess(1);
 }
 
-int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
+//int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
+int main()
 {
     MSG     msg;
     DWORD   sz;
