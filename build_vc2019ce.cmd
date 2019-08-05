@@ -4,9 +4,9 @@
 :: https://www.microsoft.com/en-us/download/details.aspx?id=44266
 ::call "%LOCALAPPDATA%\Programs\Common\Microsoft\Visual C++ for Python\9.0\vcvarsall.bat" amd64
 
-:: build with Microsoft Visual Studio Community 2015
+:: build with Microsoft Visual Studio Community 2019
 :: https://www.microsoft.com/ru-ru/download/details.aspx?id=48146
-call "D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" amd64
+call "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" amd64
 
 set PROJECT=langswitchcaps
 
